@@ -1,118 +1,118 @@
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    top: 200px;
-    position: relative;
-  }
-  
-  .d-flex {
-    display: flex;
-  }
-  
-  ul {
-    margin: 0;
-    padding: 0;
-  }
-  
-  ul > * {
-    list-style: none;
-  }
-  
-  .container {
-    width: 40rem;
-    box-shadow: 5px 5px 11px 1px rgba(151, 151, 151, 0.63);
-  }
-  
-  i::before {
-    font-size: 1.5rem;
-    color: rgba(146, 146, 146, 0.664);
-  }
-  
-  .container > *,
-  .task-list > * {
-    border-bottom: 1px solid rgba(228, 228, 228, 0.664);
-  }
-  
-  #form {
-    padding: 1.5rem 4%;
-    justify-content: space-between;
-  }
-  
-  #input {
-    background: transparent;
-    border: none;
-  }
-  
-  ::placeholder {
-    font-style: italic;
-    font-size: 1.3rem;
-  }
-  
-  .header {
-    padding: 1.5rem 4%;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .header h1 {
-    margin: 0;
-  }
-  
-  .item {
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 4%;
-  }
-  
-  .item .task p {
-    margin-left: 1rem;
-    font-size: 1.3rem;
-  }
-  
-  .item .task p:focus {
-    outline: none;
-  }
-  
-  .task {
-    align-items: center;
-  }
-  
-  form input {
-    min-width: calc(100% - 30px);
-    line-height: 24px;
-    height: 35px;
-    outline: none;
-  }
-  
-  form button {
-    border: 0 solid transparent;
-    background: #fff;
-  }
-  
-  .task-complete {
-    color: dodgerblue !important;
-  }
-  
-  i {
-    cursor: pointer;
-  }
-  
-  .linethrough {
-    text-decoration: line-through;
-    font-style: italic;
-  }
-  
-  span {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 20%;
-    cursor: pointer;
-    font-size: large;
-    padding-top: 25px;
-    position: relative;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  top: 200px;
+  position: relative;
+}
+
+.d-flex {
+  display: flex;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul > * {
+  list-style: none;
+}
+
+.container {
+  width: 40rem;
+  box-shadow: 5px 5px 11px 1px rgba(151, 151, 151, 0.63);
+}
+
+i::before {
+  font-size: 1.5rem;
+  color: rgba(146, 146, 146, 0.664);
+}
+
+.container > *,
+.task-list > * {
+  border-bottom: 1px solid rgba(228, 228, 228, 0.664);
+}
+
+#form {
+  padding: 1.5rem 4%;
+  justify-content: space-between;
+}
+
+#input {
+  background: transparent;
+  border: none;
+}
+
+::placeholder {
+  font-style: italic;
+  font-size: 1.3rem;
+}
+
+.header {
+  padding: 1.5rem 4%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.item {
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4%;
+}
+
+.item .task p {
+  margin-left: 1rem;
+  font-size: 1.3rem;
+}
+
+.item .task p:focus {
+  outline: none;
+}
+
+.task {
+  align-items: center;
+}
+
+form input {
+  min-width: calc(100% - 30px);
+  line-height: 24px;
+  height: 35px;
+  outline: none;
+}
+
+form button {
+  border: 0 solid transparent;
+  background: #fff;
+}
+
+.task-complete {
+  color: dodgerblue !important;
+}
+
+i {
+  cursor: pointer;
+}
+
+.linethrough {
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+  cursor: pointer;
+  font-size: large;
+  padding-top: 25px;
+  position: relative;
+}
