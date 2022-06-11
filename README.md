@@ -17,9 +17,12 @@
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
-git clone  
-Main
-cd list-structure
+git clone git@github.com:BwalyaNonde/to-do-list.git
+cd to-do-list
+npm install
+npm run build
+npm start
+Then check http://localhost:8080/
 
 
 
