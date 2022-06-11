@@ -15,13 +15,12 @@ displayTasks() {
   this.sortAndSave();
   const check = 'fa-check';
   const uncheck = 'fa-square-o';
-  // eslint-disable-next-line camelcase
-  const line_Through = 'linethrough';
+  const line_through = 'linethrough';
   const taskSection = document.querySelector('.task-list');
   taskSection.innerHTML = '';
   this.tasks.forEach((task) => {
-    const Done = task.Completed ? check : uncheck;
-    const Line = task.Completed ? line_Through : '';
+    const Done = task.completed ? check : uncheck;
+    const Line = task.completed ? line_through : '';
     const task_temp = `
         <li class="item d-flex">
           <div class="task d-flex">
