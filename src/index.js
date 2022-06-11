@@ -16,4 +16,4 @@ form.addEventListener('submit', (e) => {
 document.querySelector('#clear-completed').addEventListener('click', (e) => {
   e.preventDefault();
   todoList.clearCompleted();
-})
+});
