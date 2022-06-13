@@ -18,11 +18,15 @@ To do List
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
 git clone git@github.com:BwalyaNonde/to-do-list.git
+<<<<<<< HEAD
+cd Interactive_branch
+=======
 cd Add_and_remove
+>>>>>>> 85059d766a7444b289620405f535d1e298412df2
 npm install
 npm run build
 npm start
-Then check http://localhost:8080/
+
 
 
 
