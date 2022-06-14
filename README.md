@@ -22,7 +22,7 @@ cd Interactive_branch
 npm install
 npm run build
 npm start
-Then check http://localhost:8080/
+
 
 
 
