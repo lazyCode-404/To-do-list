@@ -3,9 +3,9 @@
 >  To Do List Project For Microverse By Bwalya Nonde.
 
 
-> This is a simple web develoment project for microverse created using simple HTML(Hyper text mark-up   Language.) and CSS(Cascading Style Sheet) which is used for styling or decorating the webpage. And JavaScript which is used for making the webpage responsive.
+> This project is on HTML CSS and JAVASCRIPT. this is a to do list structure project, which i implimented the earlier mentioned languages, and added the webpack.
+To do List
 
-![screenshot](to-do-list.png)
 
 
 ## Built With
@@ -18,7 +18,11 @@
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
 git clone git@github.com:BwalyaNonde/to-do-list.git
+<<<<<<< HEAD
 cd Interactive_branch
+=======
+cd Add_and_remove
+>>>>>>> 85059d766a7444b289620405f535d1e298412df2
 npm install
 npm run build
 npm start
